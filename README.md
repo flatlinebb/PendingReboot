@@ -84,7 +84,7 @@ WindowsUpdateAutoUpdate          : True
 IsRebootPending                  : True
 ```
 
-### Test the pending reboot status of a remote computer called 'DC01', with detialed information, skipping System Center Configuration Manager Agent and PendingFileRenameOperation Checks
+### Test the pending reboot status of a remote computer called 'DC01', with detailed information, skipping System Center Configuration Manager Agent and PendingFileRenameOperation Checks
 
 ```PowerShell
 PS C:\> Test-PendingReboot -ComputerName DC01 -SkipConfigurationManagerClientCheck -SkipPendingFileRenameOperationsCheck -Detailed
